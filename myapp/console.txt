@@ -1,0 +1,52 @@
+
+>>>request.body = {
+  "responseId": "2217178c-0d02-4ae7-a542-07c2bdd836b1-19db3199",
+  "queryResult": {
+    "queryText": "200",
+    "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+    "parameters": {
+      "weight": 50.0,
+      "height": 200.0
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [{
+      "text": {
+        "text": [""]
+      }
+    }],
+    "outputContexts": [{
+      "name": "projects/agent-for-interacting-with--nf/agent/sessions/328dd273-4e05-d9ac-49fe-b918460aed26/contexts/__system_counters__",
+      "parameters": {
+        "no-input": 0.0,
+        "no-match": 0.0,
+        "weight": 50.0,
+        "weight.original": "50",
+        "height": 200.0,
+        "height.original": "200"
+      }
+    }, {
+      "name": "projects/agent-for-interacting-with--nf/agent/sessions/328dd273-4e05-d9ac-49fe-b918460aed26/contexts/defaultwelcomeintent-followup",
+      "lifespanCount": 19,
+      "parameters": {
+        "height": 200.0,
+        "height.original": "200",
+        "weight": 50.0,
+        "weight.original": "50"
+      }
+    }],
+    "intent": {
+      "name": "projects/agent-for-interacting-with--nf/agent/intents/817c9330-128b-4b4d-b503-0a4abbf7000f",
+      "displayName": "CalculatorIntent"
+    },
+    "intentDetectionConfidence": 1.0,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "payload": {
+    }
+  },
+  "session": "projects/agent-for-interacting-with--nf/agent/sessions/328dd273-4e05-d9ac-49fe-b918460aed26"
+}
+
+>>>request.headers = {'Content-Type': 'application/json', 'Content-Length': '1473', 'Host': 'zencasm.pythonanywhere.com', 'X-Real-Ip': '66.249.83.82', 'X-Forwarded-For': '66.249.83.82', 'Connection': 'close', 'Accept': '*/*', 'User-Agent': 'Google-Dialogflow', 'Accept-Encoding': 'gzip,deflate,br'}
+>>>request = <WSGIRequest: POST '/webhook/'>
